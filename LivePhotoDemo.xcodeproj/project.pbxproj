@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B247B2431BA3E1EA001422FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B247B2421BA3E1EA001422FB /* main.m */; };
+		B247B2461BA3E1EA001422FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B247B2451BA3E1EA001422FB /* AppDelegate.m */; };
+		B247B24E1BA3E1EA001422FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B247B24D1BA3E1EA001422FB /* Assets.xcassets */; };
+		B247B2511BA3E1EA001422FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B247B24F1BA3E1EA001422FB /* LaunchScreen.storyboard */; };
+		B247B25B1BA3E201001422FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B247B2581BA3E201001422FB /* ViewController.m */; };
+		B247B25C1BA3E201001422FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B247B2591BA3E201001422FB /* Main.storyboard */; };
+		B247B25D1BA3E201001422FB /* video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = B247B25A1BA3E201001422FB /* video.m4v */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B247B23E1BA3E1EA001422FB /* LivePhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B247B2421BA3E1EA001422FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B247B2441BA3E1EA001422FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B247B2451BA3E1EA001422FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B247B2471BA3E1EA001422FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B247B24D1BA3E1EA001422FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B247B2501BA3E1EA001422FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B247B2521BA3E1EA001422FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B247B2581BA3E201001422FB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B247B2591BA3E201001422FB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B247B25A1BA3E201001422FB /* video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.m4v; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B247B23B1BA3E1EA001422FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B247B2351BA3E1EA001422FB = {
+			isa = PBXGroup;
+			children = (
+				B247B2401BA3E1EA001422FB /* LivePhotoDemo */,
+				B247B23F1BA3E1EA001422FB /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		B247B23F1BA3E1EA001422FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B247B23E1BA3E1EA001422FB /* LivePhotoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B247B2401BA3E1EA001422FB /* LivePhotoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B247B2441BA3E1EA001422FB /* AppDelegate.h */,
+				B247B2451BA3E1EA001422FB /* AppDelegate.m */,
+				B247B2471BA3E1EA001422FB /* ViewController.h */,
+				B247B2581BA3E201001422FB /* ViewController.m */,
+				B247B2591BA3E201001422FB /* Main.storyboard */,
+				B247B24D1BA3E1EA001422FB /* Assets.xcassets */,
+				B247B24F1BA3E1EA001422FB /* LaunchScreen.storyboard */,
+				B247B2521BA3E1EA001422FB /* Info.plist */,
+				B247B25A1BA3E201001422FB /* video.m4v */,
+				B247B2411BA3E1EA001422FB /* Supporting Files */,
+			);
+			path = LivePhotoDemo;
+			sourceTree = "<group>";
+		};
+		B247B2411BA3E1EA001422FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B247B2421BA3E1EA001422FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B247B23D1BA3E1EA001422FB /* LivePhotoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B247B2551BA3E1EA001422FB /* Build configuration list for PBXNativeTarget "LivePhotoDemo" */;
+			buildPhases = (
+				B247B23A1BA3E1EA001422FB /* Sources */,
+				B247B23B1BA3E1EA001422FB /* Frameworks */,
+				B247B23C1BA3E1EA001422FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivePhotoDemo;
+			productName = LivePhotoDemo;
+			productReference = B247B23E1BA3E1EA001422FB /* LivePhotoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B247B2361BA3E1EA001422FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Genady Okrain";
+				TargetAttributes = {
+					B247B23D1BA3E1EA001422FB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B247B2391BA3E1EA001422FB /* Build configuration list for PBXProject "LivePhotoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B247B2351BA3E1EA001422FB;
+			productRefGroup = B247B23F1BA3E1EA001422FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B247B23D1BA3E1EA001422FB /* LivePhotoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B247B23C1BA3E1EA001422FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247B25C1BA3E201001422FB /* Main.storyboard in Resources */,
+				B247B25D1BA3E201001422FB /* video.m4v in Resources */,
+				B247B2511BA3E1EA001422FB /* LaunchScreen.storyboard in Resources */,
+				B247B24E1BA3E1EA001422FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B247B23A1BA3E1EA001422FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247B25B1BA3E201001422FB /* ViewController.m in Sources */,
+				B247B2461BA3E1EA001422FB /* AppDelegate.m in Sources */,
+				B247B2431BA3E1EA001422FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B247B24F1BA3E1EA001422FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B247B2501BA3E1EA001422FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B247B2531BA3E1EA001422FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B247B2541BA3E1EA001422FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B247B2561BA3E1EA001422FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivePhotoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okrain.LivePhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B247B2571BA3E1EA001422FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivePhotoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okrain.LivePhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B247B2391BA3E1EA001422FB /* Build configuration list for PBXProject "LivePhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247B2531BA3E1EA001422FB /* Debug */,
+				B247B2541BA3E1EA001422FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B247B2551BA3E1EA001422FB /* Build configuration list for PBXNativeTarget "LivePhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247B2561BA3E1EA001422FB /* Debug */,
+				B247B2571BA3E1EA001422FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B247B2361BA3E1EA001422FB /* Project object */;
+}
