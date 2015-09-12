@@ -4,6 +4,6 @@ This is a quick example of how to take Apple's Live Photos without having an iPh
 
 It currently allows you to both record and playback a Live Photo.
 
-* Requirements: Xcode 7.1 and iOS 9.1 beta 1
-
 ![Live Photo Demo](https://github.com/genadyo/LivePhotoDemo/raw/master/Media/Live_Photo_Demo.gif)
+
+* Requirements: Xcode 7.1 and iOS 9.1 beta 1
