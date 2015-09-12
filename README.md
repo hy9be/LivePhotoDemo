@@ -1,6 +1,6 @@
 #Live Photo Demo
 
-This is a quick example of how to take Apple's Live Photos without having a iPhone 6s or iPhone 6s Plus.
+This is a quick example of how to take Apple's Live Photos without having an iPhone 6s or iPhone 6s Plus.
 It currently allows you to both record and play back a Live Photo.
 
 * Requirements: Xcode 7.1 and iOS 9.1 beta 1
