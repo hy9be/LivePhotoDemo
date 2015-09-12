@@ -6,4 +6,4 @@ It currently allows you to both record and playback a Live Photo.
 
 ![Live Photo Demo](https://github.com/genadyo/LivePhotoDemo/raw/master/Media/Live_Photo_Demo.gif)
 
-* Requirements: Xcode 7.1 and iOS 9.1 beta 1
+* Requirements: Xcode 7.1 and iOS 9.1
